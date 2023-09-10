@@ -15,4 +15,26 @@ The way Atari chose to compete with the Pong Game clones was to produce more inn
 
         Source: "ponggame.org"
 
-        
+
+- Paddles
+    * Rectangular block used to represent paddles, like in tennis.
+- Ball
+    * A bouncing ball which reflects off of paddles and boundaries.
+- Point System
+    * A ball that passes "behind" one paddle, gives a point to the operator of the other paddle ("Goal/Score/Touchdown").
+- Boundaries
+    * The entire game fits within a rectangle, divided into sections/areas/zones. Goal, Paddle, Space.
+        [] = Boundaries(SPACE)
+        {} = Goal
+        || = Paddle
+        0 = ball
+    * Setup (abstract):   [Left Side] ... {Goal: Player 2} ... |Paddle: Player 1| ... 0 ... |Paddle: Player 2| ... {Goal: Player 1} ... [Right Side]
+- Game
+    * Two players { Player vs player   OR   Player vs Computer }, play a virtual tennis. Their goal is to reach 10 points to win/finish the game. 
+    * Using the paddles, each player knocks the "tennis"ball back and forth, making sure the ball does not reach behind the paddle. 
+    * When the ball goes behind one paddle, the operator of the other paddle earns one point (like a touchdown in the goal zone).
+
+
+- Goal 
+    * Create a basic version of this game on a website.
+    * [Creative Goal]- Customize the elements within the game so that paddles represent stick figures, and when they "reflect" the ball, the stick-figures do so by thrusting. 
