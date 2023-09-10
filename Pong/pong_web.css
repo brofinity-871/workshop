@@ -1,0 +1,23 @@
+
+.pong_menu{
+    background-color: grey;
+    font-family: Times New Roman;
+    font-size: Large;
+}
+.menu_hw{
+    color: blue;
+}
+.menu_hw:hover{
+    color: white;
+}
+.menu_hw:active{
+    background-color: white;
+}
+
+.test{
+    font-family: Arial;
+    font-size: meduim;
+    color: red;
+}
+
+
